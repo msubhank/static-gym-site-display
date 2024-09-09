@@ -1,0 +1,94 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin: 0px;
+    padding-top: 0px;
+    background: url('img/pexels-cottonbro-studio-7672097.jpg');
+    /* height: 2200px; */
+}
+
+.left{
+    display: inline-block;
+/* border: 2px solid red; */
+position: absolute;
+left: 32px;
+top: 20px;
+}
+.mid{
+    display: block;
+/* border: 2px solid yellow; */
+width: 35%;
+margin: 20px auto;
+}
+.right{
+    display: inline-block;
+/* border: 2px solid green; */
+position: absolute;
+right: 32px;
+top: 20px;
+}
+.navbar li{
+    display: inline-block;
+   font-size: 16px
+}
+.navbar li a{
+    color: white;
+    /* //For removing underline  */
+    text-decoration: none;
+    padding: 20px 15px;
+}
+.navbar li a:hover , .navbar li a.active{
+   text-decoration: underline;
+   color: grey;
+}
+.left img{
+    width: 100px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(56, 55, 55);
+}
+.container{
+    border: 2px solid white;
+    margin: 136px 67px;
+    padding: 50px;
+    border-radius: 8px;
+    width: 30%;
+}
+.form input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    margin: 4px auto;
+    padding: 3px;
+    width: 380px;
+    border-radius: 8px;
+    /* font-size: 15px; */
+    border: 2px solid black;
+
+}
+
+.container h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
