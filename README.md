@@ -1,0 +1,1 @@
+# static-gym-site-display
